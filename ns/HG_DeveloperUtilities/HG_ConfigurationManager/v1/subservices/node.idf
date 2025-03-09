@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">interface</value>
+  <value name="node_subtype">unknown</value>
+  <value name="node_nsName">HG_DeveloperUtilities.HG_ConfigurationManager.v1.subservices</value>
+  <value name="node_pkg">HG_DeveloperUtilities</value>
+  <value name="is_public">false</value>
+  <value name="encodeutf8">true</value>
+  <value name="shared">CnByaXZhdGUgc3RhdGljIExpc3Q8SURhdGE+IGdldEZpbGVUcmVlKEZpbGUgZGlyZWN0b3J5KSB7
+CiAgICBMaXN0PElEYXRhPiBmaWxlTGlzdCA9IG5ldyBBcnJheUxpc3Q8PigpOwogICAgRmlsZVtd
+IGZpbGVzID0gZGlyZWN0b3J5Lmxpc3RGaWxlcygpOwoKICAgIGlmIChmaWxlcyAhPSBudWxsKSB7
+CiAgICAgICAgZm9yIChGaWxlIGZpbGUgOiBmaWxlcykgewogICAgICAgICAgICBJRGF0YSBmaWxl
+RGF0YSA9IElEYXRhRmFjdG9yeS5jcmVhdGUoKTsKICAgICAgICAgICAgSURhdGFDdXJzb3IgZmls
+ZUN1cnNvciA9IGZpbGVEYXRhLmdldEN1cnNvcigpOwogICAgICAgICAgICBJRGF0YVV0aWwucHV0
+KGZpbGVDdXJzb3IsICJuYW1lIiwgZmlsZS5nZXROYW1lKCkpOwogICAgICAgICAgICBJRGF0YVV0
+aWwucHV0KGZpbGVDdXJzb3IsICJwYXRoIiwgZmlsZS5nZXRBYnNvbHV0ZVBhdGgoKSk7CiAgICAg
+ICAgICAgIElEYXRhVXRpbC5wdXQoZmlsZUN1cnNvciwgImlzRGlyZWN0b3J5IiwgZmlsZS5pc0Rp
+cmVjdG9yeSgpKTsKCiAgICAgICAgICAgIGlmIChmaWxlLmlzRGlyZWN0b3J5KCkpIHsKICAgICAg
+ICAgICAgICAgIElEYXRhVXRpbC5wdXQoZmlsZUN1cnNvciwgImNoaWxkcmVuIiwgZ2V0RmlsZVRy
+ZWUoZmlsZSkudG9BcnJheShuZXcgSURhdGFbMF0pKTsKICAgICAgICAgICAgfQoKICAgICAgICAg
+ICAgZmlsZUN1cnNvci5kZXN0cm95KCk7CiAgICAgICAgICAgIGZpbGVMaXN0LmFkZChmaWxlRGF0
+YSk7CiAgICAgICAgfQogICAgfQogICAgcmV0dXJuIGZpbGVMaXN0Owp9</value>
+  <value name="extends"></value>
+  <array name="implements" type="value" depth="1">
+  </array>
+  <array name="imports" type="value" depth="1">
+    <value>java.io.File</value>
+    <value>java.util.ArrayList</value>
+    <value>java.util.HashMap</value>
+    <value>java.util.List</value>
+    <value>java.util.Map</value>
+    <value>com.wm.data.IData</value>
+    <value>com.wm.data.IDataCursor</value>
+    <value>com.wm.data.IDataFactory</value>
+    <value>com.wm.data.IDataUtil</value>
+    <value>java.io.*</value>
+    <value>java.nio.file.*</value>
+  </array>
+</Values>

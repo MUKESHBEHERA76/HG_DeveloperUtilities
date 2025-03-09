@@ -1,0 +1,187 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: white;
+    color: back;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    /* Main container is vertical */
+    width: 100%;
+    height: 500px;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+.explorer-row {
+    display: flex;
+    /* Row container for side-by-side explorers */
+    width: 100%;
+    gap: 10px;
+}
+
+#responsePanel {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 20px;
+
+}
+
+.explorer-container {
+    flex: 1;
+    max-height: 100%;
+    overflow-y: auto;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.breadcrumb-box {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 6px;
+    padding: 6px 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+
+    white-space: nowrap;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.folder,
+.file {
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 6px;
+    transition: 0.3s ease-in-out;
+}
+
+.folder:hover,
+.file:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.toggle-icon {
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 8px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.toggle-icon.open {
+    transform: rotate(90deg);
+    color: #ff5733;
+}
+
+.file-icon {
+    margin-right: 10px;
+}
+
+.folder-container {
+    display: flex;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+}
+
+
+.custom-file-upload {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    border: none;
+}
+
+.custom-file-upload:hover {
+    background-color: #0056b3;
+}
+
+#fileInput_pub {
+    display: none;
+}
+
+#fileInput_config {
+    display: none;
+}
+
+.upload-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.upload-btn:hover {
+    background-color: #218838;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    /* Align button to the right */
+    width: 100%;
+}
+
+.new-directory-btn {
+    position: relative;
+    padding: 8px 16px;
+    /* Reduced padding for a smaller button */
+    font-size: 14px;
+    /* Slightly smaller font */
+    font-weight: bold;
+    color: white;
+    background: #007bff;
+    /* Modern blue color */
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 6px;
+    overflow: hidden;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+/* The moving light effect */
+.new-directory-btn::before {
+    content: "";
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    width: calc(100% + 6px);
+    height: calc(100% + 6px);
+    border-radius: 6px;
+    border: 2px solid transparent;
+    filter: blur(3px);
+    animation: moveLight 2s infinite linear;
+}
