@@ -1,0 +1,20 @@
+# Backend Configuration File Editor - License
+This software, "Backend Configuration File Editor," is developed by Harmonigate.com. It is provided under the following terms and conditions.
+
+# Important Notice:
+This project utilizes internal services from the WmRoot and WmAdmin packages. Consequently, IBM will not provide support for any issues related to this software. This project is intended for personal use only and not for commercial use.
+
+
+# License Agreement
+
+We're providing this software exactly as it is. This means we don't guarantee it will work perfectly or be suitable for your specific needs. You use it at your own risk. We're not responsible for any problems or damages it might cause.
+
+You have permission to use this software for your personal, non-commercial purposes. You can't share it with others or sell it without our written approval. Commercial use is strictly prohibited.
+
+# Technology Stack
+webMethods Flow Services
+Java
+CSS
+JavaScript
+HTML
+Dynamic Server Pages (DSPs)
