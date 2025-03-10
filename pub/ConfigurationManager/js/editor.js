@@ -52,7 +52,10 @@ function showEditor(content, filePath, packageName, server) {
         mode = "htmlmixed";
     } else if (filePath.endsWith(".js")) {
         mode = "javascript";
-    } else if (filePath.endsWith(".css")) {
+    } else if (filePath.endsWith(".bak")) {
+        mode = "text/plain";
+    }
+     else if (filePath.endsWith(".css")) {
         mode = "css";
     } else if (filePath.endsWith(".xml")) {
         mode = "xml";
